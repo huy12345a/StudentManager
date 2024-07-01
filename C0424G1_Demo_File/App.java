@@ -15,9 +15,9 @@ public class App {
                 System.out.println("4: Update students");
                 System.out.println("5: Import students");
                 System.out.println("6: Export students");
-                System.out.println("5: Exit");
+                System.out.println("7: Exit");
                 int choice = Integer.parseInt(scanner.nextLine());
-                if (choice == 5) {
+                if (choice == 7) {
                     break;
                 }
                 switch (choice) {
